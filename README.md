@@ -1,8 +1,8 @@
 # README
 
-## I will use the Rails 5 feature called ActionCable to build one without using any front-end framework (expect jQuery – but it’s just a light library). My goal is to create a real time Rails chat application that sends and shows messages to a recipient instantly without any page refresh.
+### I will use the Rails 5 feature called ActionCable to build one without using any front-end framework (expect jQuery – but it’s just a light library). My goal is to create a real time Rails chat application that sends and shows messages to a recipient instantly without any page refresh.
 
-### Following are the features of the app:
+#### Following are the features of the app:
 
 * start a new conversation
 
