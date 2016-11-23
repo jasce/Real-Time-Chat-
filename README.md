@@ -1,24 +1,17 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## I will use the Rails 5 feature called ActionCable to build one without using any front-end framework (expect jQuery – but it’s just a light library). My goal is to create a real time Rails chat application that sends and shows messages to a recipient instantly without any page refresh.
 
-Things you may want to cover:
+### Following are the features of the app:
 
-* Ruby version
+* start a new conversation
 
-* System dependencies
+* send a basic message
 
-* Configuration
+* real time messages
 
-* Database creation
+* new message notifications
 
-* Database initialization
 
-* How to run the test suite
+The basic idea is to learn new Rails 5 exciting feature, Action Cable and Web Sockets Support.
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
