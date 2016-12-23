@@ -12,7 +12,7 @@ App.conversation = App.cable.subscriptions.create("ConversationChannel", {
     console.log(data['message']);
   },
 
-  speak: function() {
+  speak: function(message) {    
     return this.perform('speak', {
       message: message
     });
@@ -20,7 +20,7 @@ App.conversation = App.cable.subscriptions.create("ConversationChannel", {
 });
 $(document).on('submit', '.new_message', function(e){
   e.preventDefault();
-  var values = $(this).serializeArray();
-  App.conversation.speak(values);
+  var values = $(this).serializeArray(); 
+  App.conversation.speak(values); 
   $(this).trigger('reset');
 })
