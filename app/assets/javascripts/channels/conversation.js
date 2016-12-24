@@ -13,7 +13,8 @@ App.conversation = App.cable.subscriptions.create("ConversationChannel", {
   },
 
   speak: function(message) {    
-    return this.perform('speak', {
+    console.log(message);
+    return this.perform('speak', {      
       message: message
     });
   }
